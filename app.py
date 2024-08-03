@@ -102,5 +102,6 @@ def threasholding(image):
     ret, thresh = cv2.threshold(img_gray, 80, 255, cv2.THRESH_BINARY_INV)
     return thresh
 
+
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=7860)
